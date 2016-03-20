@@ -1,0 +1,48 @@
+Q1.
+
+It will return a string "You will " + random string from the choices array.
+
+Q2.
+
+It will return an inaccurate sentance of "You will" + random string from RoadTrip's choices array. Two of these sentances will not be a roadtrip for whoever is asking though...
+
+Q3.
+
+Orange.ancestors would return the lookup chain.
+
+For Orange and HotSauce it would be Orange/Taste/Object/Kernel/BasicObject
+
+Q4.
+
+attr_accessor :type
+
+Q5.
+
+local variable - no leading symbol
+instance variable - one leading @ symbol
+class variable - two leading @ symbols
+
+Q6.
+
+The first method is a class method because it is preceeded by 'self.'
+
+You can call on the class object with Television.manufacturer
+
+Q7.
+
+The @@cats_count variable increments each time a cat is created and therefore stores the total number of cats instantiated. You could test it by creating a bunch of cats and then calling the .cats_count method on the Cat class object.
+
+Q8.
+
+class Bingo < Game
+
+Q9.
+
+The Bingo play method would override the Game play method. The Game play method would no longer be accessible for a Bingo object.
+
+Q10.
+
+Not having to pass around a slew of variables related to an object.
+Being able to organize your project into objects which you can more easily understand.
+Pass on shared methods through inheritance and modules.
+Pass on shared methods and default values to new instances of a class.

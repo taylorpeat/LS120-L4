@@ -1,0 +1,43 @@
+Q1.
+
+All. TrueClass/String/Array/Fixnum
+
+Q2.
+
+include Speed
+
+Car.new.go_fast
+
+Q3.
+
+The object's class was called using string interpolation. The Class class must have a to_s method which returns the class name.
+
+Q4.
+
+tabby = AngryCat.new
+
+Q5.
+
+The pizza name is an instance variable because of the @ symbol in front of the variable name.
+
+Q6.
+
+def volume
+  @volume
+end
+
+Q7.
+
+BasicObject has a to_s method which returns the object ID. You could just type object_name.to_s in IRB if you wanted to find out.
+
+Q8.
+
+'self' refers to an instance object being assigned. Because you are assigning a new value to the variable, Ruby can't tell if you're trying to make a new local variable or modify the existing instance variable. It will assume a new local variable unless you explicitly state self or @ infront of the instance variable name.
+
+Q9.
+
+This indicates a class method. This method is available to be called on the class object. For example 'Cat.cats_count' would return the class variable '@@cats_count' value. This method is not available to instances of the Cat class.
+
+Q10.
+
+Bag.new('some_color', 'some_material')

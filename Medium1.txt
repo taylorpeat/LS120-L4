@@ -1,0 +1,55 @@
+Q1.
+
+Ben, the attr_reader method returns the @balance value which is then compared to 0.
+
+Q2.
+
+quantity requires an attr_writer method.
+
+Q3.
+
+You would need to add self infront of quantity in the update_quantity method. You would also be unnecessarily assigning a writer method to the product_name method. This would also allow the quantity to be changed using the setter method which circumvents the update_quantity method and it's restrictions.
+
+Q4.
+
+class Greeting
+  def greet(message)
+    puts message
+  end
+end
+
+class Hello < Greeting
+  def hi
+    greet("hello")
+  end
+end
+
+class GoodBye < Greeting
+  def bye
+    greet("Goodbye")
+  end
+end
+
+Q5.
+
+class KrispyKreme
+  ...
+
+  def to_s
+    description = @filling_type || "Plain"
+    description += " with #{@glazing}" unless @glazing == nil
+    description
+  end
+end
+
+Q6.
+
+The first method assigns a value to the instance variable directly and then accesses it through the attr_accessor read method. It could just use attr_reader and still work. It doesn't need self. in front of the template method calls since there are setter and getter methods.
+
+The second method uses the setter method to assign the instance variable method. It doesn't need self.template to read the variable, it could just use template.
+
+Q7.
+
+self.information
+
+The method call would be Light.information

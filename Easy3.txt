@@ -1,0 +1,38 @@
+Q1.
+
+case 1. output "Hello"
+
+case 2. NoMethod error
+
+case 3. Not enough arguments for method call
+
+case 4. output "Goodbye"
+
+case 5. NoMethod error (instance method, not class method)
+
+Q2.
+
+Change the call to Hello.new.hi or add a class method which is the same as the instance method.
+
+Q3.
+
+tabby = AngryCat.new(2, 'tabby')
+death_claw = AngryCat.new(17, 'Death Claw')
+
+Q4.
+
+def to_s
+  puts "I am a #{@type} cat"
+end
+
+Q5.
+
+The tv.manucfacturer and Television.model method calls won't work.
+
+Q6.
+
+@age += 1
+
+Q7.
+
+The return is unnecessary.
